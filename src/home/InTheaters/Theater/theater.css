@@ -1,0 +1,45 @@
+.theaterWrap {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+  width: 100%;
+  min-height: 120px;
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 20px;
+}
+.theaterWrap img {
+  margin-right: 10px;
+  width: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 4px #e8e8e8;
+}
+.theaterWrap .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 114px;
+  align-self: start;
+}
+.name {
+  font-size: 16px;
+  word-break: break-all;
+}
+.rating {
+  font-size: 14px;
+  font-weight: normal;
+  padding-right: 8px;
+  color: orange;
+}
+
+.collectCount {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.directors, .casts, .genres {
+  color: #494949;
+  margin-top: 15px;
+  padding-right: 24px;
+  font-size: 14px;
+  line-height: 1.6;
+}

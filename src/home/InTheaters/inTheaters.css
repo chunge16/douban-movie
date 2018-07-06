@@ -1,0 +1,15 @@
+
+.inTheatersWrap {
+  padding: 0 15px;
+  font-size: 14px;
+  height: calc(100vh - 50px);
+  overflow: scroll;
+}
+.baseLine {
+  padding: 10px 0;
+  background: white;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+}
+
