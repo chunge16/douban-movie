@@ -42,6 +42,7 @@ export default class TopItem extends Component{
 
   render () {
     let {
+      alt,
       images,
       title,
       year,
@@ -64,7 +65,7 @@ export default class TopItem extends Component{
     })
 
     return (
-      <div className='top250ItemWrap'>
+      <a className='top250ItemWrap' href={alt} target='_blank'>
         <img src={images.medium}></img>
         <div className='main'>
           <span className='name'>{`${title} (${year})`}</span>
@@ -77,7 +78,7 @@ export default class TopItem extends Component{
           <div>导演：<span className='directors'>{director}</span></div>
           <div>主演：<span className='casts'>{cat}</span></div>
         </div>
-      </div>
+      </a>
     )
   }
 }

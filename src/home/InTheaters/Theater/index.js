@@ -9,6 +9,7 @@ export default class Theater extends Component{
 
   render () {
     let {
+      alt,
       images,
       title,
       year,
@@ -31,7 +32,7 @@ export default class Theater extends Component{
     })
 
     return (
-      <div className='theaterWrap'>
+      <a className='theaterWrap' href={alt} target='_blank'>
         <img src={images.medium}></img>
         <div className='main'>
           <span className='name'>{`${title} (${year})`}</span>
@@ -43,7 +44,7 @@ export default class Theater extends Component{
           <div>导演：<span className='directors'>{director}</span></div>
           <div>主演：<span className='casts'>{cat}</span></div>
         </div>
-      </div>
+      </a>
     )
   }
 }
