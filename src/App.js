@@ -54,7 +54,7 @@ class App extends Component {
             selectedIcon={<div style={{
               width: '22px',
               height: '22px',
-              background: 'url("assets/theaters-active.svg") center center /  21px 21px no-repeat' }}
+              background: 'url("assets/theatersActive.svg") center center /  21px 21px no-repeat' }}
             />
             }
             selected={this.state.selectedTab === 'inTheaters'}
@@ -78,7 +78,7 @@ class App extends Component {
               <div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url("/assets/rank-active.svg") center center /  21px 21px no-repeat' }}
+                background: 'url("/assets/rankActive.svg") center center /  21px 21px no-repeat' }}
               />
             }
             title="Top250"
@@ -104,7 +104,7 @@ class App extends Component {
               <div style={{
                 width: '22px',
                 height: '22px',
-                background: 'url("/assets/box-active.svg") center center /  21px 21px no-repeat' }}
+                background: 'url("/assets/boxActive.svg") center center /  21px 21px no-repeat' }}
               />
             }
             title="北美票房榜"
