@@ -7,6 +7,7 @@
   background-color: #fff;
   box-sizing: border-box;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch; // fix: ios滑动卡顿
 }
 .title {
   position: sticky;
@@ -25,6 +26,4 @@
 }
 .infoContainer .children {
   padding: 0 15px;
-  overflow: scroll;
-  height: 100%;
 }

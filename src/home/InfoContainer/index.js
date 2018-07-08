@@ -9,9 +9,9 @@ export default class InfoContainer extends Component{
     let { title='标题', children, className='', onscroll } = this.props
 
     return (
-      <div className={`infoContainer ${className}`} >
+      <div className={`infoContainer ${className}`} onScroll={onscroll}>
         <header className='title'>{title}</header>
-        <div className='children' onScroll={onscroll}>{children}</div>
+        <div className='children'>{children}</div>
       </div>
     )
   }
